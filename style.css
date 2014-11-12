@@ -1,0 +1,121 @@
+﻿/********* Corps de la page **********/
+body
+{
+	width: 900px;
+	margin: auto;
+	background: #467829 url(images/fond.jpg) no-repeat center fixed;
+	color: black;
+}
+
+/************** Liens ***************/
+a
+{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/****** Surbrillance des liens ******/
+a:hover
+{
+	color: #CD6D01;
+	text-decoration: none;
+}
+
+/************** Entête **************/
+#paragraphe
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*************** Menu ***************/
+#menu
+{
+	background: white;
+}
+#menu td
+{
+	text-align: center;
+}
+
+/******* Contenu de la page ********/
+#contenu
+{
+	min-height: 600px;
+	background: white;
+	background-image: url("images/fond-contenu.gif");
+	border-radius: 0 0 0 0;
+}
+
+/*********** Paragraphe ************/
+#paragraphe
+{
+	margin: 10px;
+}
+
+/********** Pied de page **********/
+#piedpage
+{
+	width: 100%;
+}
+
+/************* Titre *************/
+h1, h2, h3, h4, h5, h6
+{
+	text-align: center;
+}
+
+/********* Images admin *********/
+#imgadmin
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 20px;
+}
+
+/*********** Images ************/
+img
+{
+	border: 0px;
+}
+
+/********** Textarea ***********/
+textarea
+{
+	resize: none;
+}
+
+/****** Champs readonly ******/
+input[readonly="readonly"]
+{
+    background-color: #DDDDDD;
+}
+
+/***** Message d'erreur *****/
+#error
+{
+	color: red;
+	font-size: 50px;
+	text-align: center;
+}
+
+/********* Message *********/
+#message
+{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}
+
+/********* Legend **********/
+legend
+{
+	font-weight: bold;
+}
+
+/******** Fieldset *********/
+fieldset
+{
+	border: 1px solid black;
+}
